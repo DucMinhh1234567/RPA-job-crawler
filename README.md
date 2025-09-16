@@ -45,7 +45,7 @@ Mở file `crawl.py` và thay đổi dòng 13:
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
 
 # Thay thành:
-genai.configure(api_key="AIzaSyB0axHcO5QO82WCJ_lzK73DMCwuFDb434w")  # Thay bằng API key của bạn
+genai.configure(api_key="")  # Thay bằng API key của bạn
 ```
 
 ### 2. Cấu hình danh sách URL
@@ -340,3 +340,4 @@ Dự án này được phát hành dưới giấy phép MIT.
 ---
 
 **🎯 Chúc bạn crawl dữ liệu thành công!**
+
