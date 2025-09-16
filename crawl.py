@@ -10,7 +10,7 @@ def call_llm(prompt: str) -> str:
     import google.generativeai as genai
     
     # Cấu hình API key
-    genai.configure(api_key="AIzaSyB0axHcO5QO82WCJ_lzK73DMCwuFDb434w")
+    genai.configure(api_key="")
     
     # Khởi tạo model Gemini 1.5 Flash (miễn phí)
     model = genai.GenerativeModel('gemini-1.5-flash')
